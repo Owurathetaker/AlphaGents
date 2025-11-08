@@ -1,1 +1,15 @@
-"build": "vite build"
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    // your project dependencies
+  },
+  "devDependencies": {
+    "vite": "^5.0.0" // or your current Vite version
+  }
+}
